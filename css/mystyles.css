@@ -1,0 +1,134 @@
+body{
+  background: #f00;
+}
+header{
+  display: none;
+}
+.RichContent-cover{
+  visibility: hidden!important;
+}
+.GlobalSideBar{
+  display: none!important;
+}
+body .Topstory-mainColumn{
+  width: 1000px;
+}
+body .App-main,
+body .Card,
+body .ContentItem-actions{
+  background:#1e1e1e;
+}
+body {
+  color:#a88946!important;
+}
+body .ContentItem-title{
+  color:#999;
+}
+/* 广告 */
+body .TopstoryItem--advertCard{
+  display: none!important;
+}
+body .Card.css-8z7gkt{
+  display: none;
+}
+/* 视频 */
+body iframe.ZVideoItem-player{
+  display: none;
+}
+body .ZVideoItem-video{
+  border:1px dotted #aaa;
+}
+body .ZVideoItem-video:before{
+  content:'这里是视频';
+  color:#666;
+}
+/* 表头标题 */
+body .TopstoryTabs {
+  display:none;
+}
+/* 缩略图 */
+body .RichContent-cover{
+  display: none;
+}
+/* 标题 */
+body .ContentItem-title{
+  font-weight: normal;
+}
+/* 正文 */
+body .RichContent figure,
+body .ArticleItem-image{
+  visibility: hidden;
+  border:1px dotted #fff;
+  height:20px;
+}
+body .RichText-ZVideoLinkCardContainer{
+  visibility: hidden;
+}
+body .RichContent figure:before
+body .ArticleItem-image:before{
+  content:'此处是图片';
+  color:#666;
+}
+body .RichText-MCNLinkCardContainer{
+  visibility: hidden;
+  border:1px dotted #999;
+}
+body .RichText-MCNLinkCardContainer:before{
+  content:'此处为植入'
+}
+body .RichContent .LinkCard-content{
+  display: none;
+}
+body .ztext pre{
+  background: transparent;
+  border: 1px dashed;
+}
+/* 正文 更多*/
+body .MoreAnswers .List-headerText{
+  background-color: transparent;
+}
+body .AuthorInfo-avatar{
+  opacity: 0.3;
+}
+body .AuthorInfo-avatar:hover{
+  opacity:1;
+}
+/*评论区*/
+body .ContentItem-actions>span{
+  display: none ;
+}
+body .ContentItem-actions button:not(:nth-child(2)){
+  display: none ;
+}
+body .ContentItem-actions>button:last-child{
+  display: block ;
+}
+body .CommentTopbar-title{
+  color:#999;
+}
+
+body .CommentListV2-header-divider{
+  background:transparent;
+}
+
+body .CommentsV2-withPagination,
+body .Topbar,
+body .CommentsV2-footer{
+  background:transparent;
+  border:1px solid #a88946;
+}
+
+
+
+
+
+/* 问题详情 */
+
+.Question-sideColumn,
+.QuestionHeader-footer,
+.QuestionHeaderTopicMeta.Card{
+  display: none;
+}
+body .QuestionHeader{
+  background: transparent;
+}
