@@ -1,8 +1,32 @@
 body{
   background: #f00;
 }
-header{
-  display: none;
+.AppHeader .AppHeader-Tabs{
+  visibility: hidden;
+}
+/* 头部logo */
+.AppHeader .AppHeader-inner > a{
+  visibility: hidden;
+}
+.AppHeader .TopstoryPageHeader-main>div>a{
+  visibility: hidden;
+}
+.AppHeader .TopstoryPageHeader-askButton,
+.AppHeader .SearchBar-askButton,
+.AppHeader .SimpleSearchBar-plainSearchButton,
+.AppHeader .SearchBar-searchButton{
+  visibility: hidden;
+}
+.AppHeader .AppHeader-userInfo{
+  visibility: hidden;
+}
+/* 头部 输入框*/
+.AppHeader .Input-wrapper{
+  border:none;
+}
+.AppHeader .SimpleSearchBar-input,
+.AppHeader .Input-wrapper.Input-wrapper--grey{
+  background:transparent
 }
 .RichContent-cover{
   visibility: hidden!important;
@@ -13,10 +37,12 @@ header{
 body .Topstory-mainColumn{
   width: 1000px;
 }
+body,
 body .App-main,
 body .Card,
-body .ContentItem-actions{
-  background:#1e1e1e;
+body .ContentItem-actions,
+body .AppHeader{
+  background:#1e1e1e!important;
 }
 body {
   color:#a88946!important;
@@ -53,6 +79,9 @@ body .RichContent-cover{
 /* 标题 */
 body .ContentItem-title{
   font-weight: normal;
+}
+body .Topstory-container{
+  margin-top:0
 }
 /* 正文 */
 body .RichContent figure,

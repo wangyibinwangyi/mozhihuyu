@@ -12,7 +12,7 @@
     {
       "matches": ["http://*.zhihu.com/*","https://*.zhihu.com/*"],
       "css": ["css/mystyles.css"],
-      "js": ["js/jquery-1.8.3.min.js", "/js/myscript.js"]
+      "js": ["js/jquery-1.8.3.min.js", "/js/myscript.js", "/js/canvas2image.js", "/js/html2canvas.js"]
     }
   ],
   "page_action": {
@@ -22,7 +22,8 @@
       "32": "images/get_started32.png",
       "48": "images/get_started48.png",
       "128": "images/get_started128.png"
-    }
+    },
+    "default_title": "Google Mail"
   },
   "icons": {
     "16": "images/get_started16.png",
