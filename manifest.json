@@ -8,11 +8,16 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "content_scripts": [ 
+  "content_scripts": [
     {
-      "matches": ["http://*.zhihu.com/*","https://*.zhihu.com/*"],
+      "matches": ["http://*.zhihu.com/*", "https://*.zhihu.com/*"],
       "css": ["css/mystyles.css"],
-      "js": ["js/jquery-1.8.3.min.js", "/js/myscript.js", "/js/canvas2image.js", "/js/html2canvas.js"]
+      "js": [
+        "js/jquery-1.8.3.min.js",
+        "/js/myscript.js",
+        "/js/canvas2image.js",
+        "/js/html2canvas.js"
+      ]
     }
   ],
   "page_action": {

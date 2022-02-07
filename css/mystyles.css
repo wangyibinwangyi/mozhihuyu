@@ -50,6 +50,9 @@ body {
 body .ContentItem-title{
   color:#999;
 }
+body .css-11h6utu{
+  display: none;
+}
 /* 广告 */
 body .TopstoryItem--advertCard{
   display: none!important;
@@ -58,15 +61,22 @@ body .Card.css-8z7gkt{
   display: none;
 }
 /* 视频 */
-body iframe.ZVideoItem-player{
+body iframe.ZVideoItem-player,
+body .ZVideoItem-player,
+body .VideoAnswerPlayer{
   display: none;
 }
 body .ZVideoItem-video{
   border:1px dotted #aaa;
+  max-width:160px;
+  max-height: 70px;
+  margin:0 auto;
+  display: none;
 }
 body .ZVideoItem-video:before{
   content:'这里是视频';
   color:#666;
+  padding-top:50px;
 }
 /* 表头标题 */
 body .TopstoryTabs {
@@ -83,6 +93,9 @@ body .ContentItem-title{
 body .Topstory-container{
   margin-top:0
 }
+/* body .Topstory:first-child:not(.Topstory-container){
+  display: none;
+} */
 /* 正文 */
 body .RichContent figure,
 body .ArticleItem-image{
@@ -111,6 +124,15 @@ body .RichContent .LinkCard-content{
 body .ztext pre{
   background: transparent;
   border: 1px dashed;
+}
+body .RichText-LinkCardContainer{
+  display: none;
+}
+body .RichText-ADLinkCardContainer{
+  display:none;
+}
+body .RichText-video{
+  display:none;
 }
 /* 正文 更多*/
 body .MoreAnswers .List-headerText{
