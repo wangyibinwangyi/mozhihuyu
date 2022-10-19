@@ -37,6 +37,9 @@ body{
 body .Topstory-mainColumn{
   width: 1000px;
 }
+body .Topstory-mainColumn+div{
+  display:none;
+}
 body,
 body .App-main,
 body .Card,
@@ -134,6 +137,9 @@ body .RichText-ADLinkCardContainer{
 body .RichText-video{
   display:none;
 }
+body .Voters{
+  display:none;
+}
 /* 正文 更多*/
 body .MoreAnswers .List-headerText{
   background-color: transparent;
@@ -157,7 +163,9 @@ body .ContentItem-actions>button:last-child{
 body .CommentTopbar-title{
   color:#999;
 }
-
+body .CommentContent{
+  color:#aaa;
+}
 body .CommentListV2-header-divider{
   background:transparent;
 }
